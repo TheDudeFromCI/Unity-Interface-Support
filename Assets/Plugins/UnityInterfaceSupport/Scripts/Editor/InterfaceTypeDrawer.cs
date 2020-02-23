@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System;
-using WraithavenGames.UnityInterfaceSupport;
 
 /// <summary>
 /// This property drawer is the meat of the interface support implementation. When
@@ -33,7 +32,7 @@ public class InterfaceTypeDrawer : PropertyDrawer
             if (oldComp == null)
             {
                 temp = new GameObject("None [" + att.type.Name + "]");
-                oldComp = temp.AddComponent<DummyScript>();
+                oldComp = temp.AddComponent<MonoInterface>();
             }
             else
             {
@@ -70,4 +69,8 @@ public class InterfaceTypeDrawer : PropertyDrawer
         property.objectReferenceValue = comp;
         property.serializedObject.ApplyModifiedProperties();
     }
+}
+
+public class MonoInterface : MonoBehaviour
+{
 }

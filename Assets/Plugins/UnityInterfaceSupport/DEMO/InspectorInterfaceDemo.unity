@@ -453,4 +453,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30cde9e36ae70f4384514a993198ded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  food: {fileID: 1263085884}
+  food: {fileID: 0}
