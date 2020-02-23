@@ -2,7 +2,8 @@
 
 public class Banana : MonoBehaviour, IFood
 {
-	public void Eat()
-	{
-	}
+    public void Eat()
+    {
+        Debug.Log("Eating the Banana.");
+    }
 }
