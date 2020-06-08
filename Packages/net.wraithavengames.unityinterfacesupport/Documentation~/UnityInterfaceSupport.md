@@ -14,7 +14,7 @@ When placing an interface field in the Unity inspector which you want to seriali
 
 Full Example:
 
-```
+```cs
 // Here, we want to accept objects of the specific interface.
 // The field should always be specified as a UnityEngine.Object type.
 // We can now be promised that the object field will be correctly
