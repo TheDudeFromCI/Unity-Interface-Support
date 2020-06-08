@@ -1,0 +1,19 @@
+{
+  "name": "net.wraithavengames.unityinterfacesupport",
+  "displayName": "Unity Interface Support",
+  "version": "1.0.0",
+  "unity": "2019.3",
+  "description": "Adds a simple attribute for supporting interfaces on MonoBehaviours and ScriptableObjects in the Unity Inspector.",
+  "hideInEditor": false,
+  "keywords": [
+    "inspector",
+    "attribute",
+    "support",
+    "utility"
+  ],
+  "author": {
+    "name": "TheDudeFromCI",
+    "email": "thedudefromci@gmail.com",
+    "url": "https://github.com/Wraithaven-UnityTools/Unity-Interface-Support"
+  }
+}
