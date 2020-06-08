@@ -29,8 +29,9 @@ Thank you all for supporting me and helping this project to continue being devel
 
 <br />
 
-<p>Want to support this project? Join my Patreon!</p>
+<p>Want to support this project?</p>
 <a href="https://www.patreon.com/thedudefromci"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="150px" /></a>
+<a href='https://ko-fi.com/P5P31SKR9' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ---
 
