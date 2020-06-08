@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/github/repo-size/Wraithaven-UnityTools/Unity-Interface-Support" />
   <img src="https://img.shields.io/github/issues/Wraithaven-UnityTools/Unity-Interface-Support" />
   <img src="https://img.shields.io/github/v/release/Wraithaven-UnityTools/Unity-Interface-Support?include_prereleases" />
+  <a href="https://openupm.com/packages/net.wraithavengames.unityinterfacesupport/"><img src="https://img.shields.io/npm/v/net.wraithavengames.unityinterfacesupport?label=openupm&registry_uri=https://package.openupm.com" /></a>
 </p>
 
 ---
