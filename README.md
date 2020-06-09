@@ -1,5 +1,5 @@
 <h1 align="center">Unity Interface Support</h1>
-<p align="center"><i>A small Unity package which adds a simple attribute which allows for usage of interfaces on MonoBehaviours in the Unity inspector. Interfaces are fully serialized and blend seamlessly with standard Unity workflows.</i></p>
+<p align="center"><i>Unity Interface Support is a small Unity package that adds an attribute for allowing interfaces to be used on MonoBehaviours in the Unity inspector. Interfaces are fully serialized and blend seamlessly with standard Unity workflows.</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/license/Wraithaven-UnityTools/Unity-Interface-Support" />
