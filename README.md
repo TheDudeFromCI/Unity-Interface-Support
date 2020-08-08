@@ -60,6 +60,12 @@ public IMyInterface MyInterface(int index) => myObjects[index] as IMyInterface;
 public IMyInterface MyInterface(int index, IMyInterface value) => myObjects[index] = value;
 ```
 
+### Namespace
+
+The `InterfaceType` attribute exists under the `WraithavenGames.UnityInterfaceSupport` namespace.
+
+If you're using an assembly definition, in same rare cares, the GUID of the assemblies may not load correctly when importing the package. This can be fixed by opening the UnityInterfaceSupport.Editor assembly definition file in the package directly and pointing the the GUID link back to the UnityInterfaceSupport runtime. This can be seen [here.](https://github.com/Wraithaven-UnityTools/Unity-Interface-Support/issues/2)
+
 ### Additional Information
 
 You can find more information about using this Unity package by checking out the Documentation page. This page is also included in local installations within the UnityInterfaceSupport/Documentation~ folder in your Unity Packages directory.
