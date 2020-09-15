@@ -50,7 +50,7 @@ void Start()
 
 **Arrays**
 
-Using arrays is nearly identical, but each element in the array must be casted individually. You can do this by using a quick getting and setter function.
+Using arrays is nearly identical, but each element in the array must be casted individually. You can do this by using a quick getter and setter function.
 
 ```cs
 [SerializeField, InterfaceType(typeof(IMyInterface))]
@@ -65,6 +65,16 @@ public IMyInterface MyInterface(int index, IMyInterface value) => myObjects[inde
 The `InterfaceType` attribute exists under the `WraithavenGames.UnityInterfaceSupport` namespace.
 
 If you're using an assembly definition, in same rare cares, the GUID of the assemblies may not load correctly when importing the package. This can be fixed by opening the UnityInterfaceSupport.Editor assembly definition file in the package directly and pointing the the GUID link back to the UnityInterfaceSupport runtime. This can be seen [here.](https://github.com/Wraithaven-UnityTools/Unity-Interface-Support/issues/2)
+
+### Installation
+
+You can install this package by using the following line in the Unity package manager:
+
+```"net.wraithavengames.unityinterfacesupport": "https://github.com/TheDudeFromCI/Unity-Interface-Support.git?path=/Packages/net.wraithavengames.unityinterfacesupport",```
+
+(Please see the [Official Unity Documention](https://docs.unity3d.com/Packages/com.unity.package-manager-ui@2.0/manual/index.html) for more information.)
+
+This project can also be installed through OpenUPM, [here.](https://openupm.com/packages/net.wraithavengames.unityinterfacesupport/)
 
 ### Additional Information
 
