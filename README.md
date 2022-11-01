@@ -58,7 +58,9 @@ private Object[] myObjects;
 
 public IMyInterface MyInterface(int index) => myObjects[index] as IMyInterface;
 public IMyInterface MyInterface(int index, IMyInterface value) => myObjects[index] = value;
-private IMyInterface[] MyInterfaceArray => myObjects.OfType<IMyInterface>().Cast<IMyInterface>().ToArray();
+
+// Be sure to include System.Linq for this:
+public IMyInterface[] MyInterfaceArray => myObjects.OfType<IMyInterface>().Cast<IMyInterface>().ToArray();
 ```
 
 ### Namespace
