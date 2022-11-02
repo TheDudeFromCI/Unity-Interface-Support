@@ -48,9 +48,26 @@ void Start()
 }
 ```
 
-**Arrays**
+#### Arrays & Lists
 
-Using arrays is nearly identical, but each element in the array must be casted individually. You can do this by using a quick getter and setter function.
+Using collections is nearly identical, but each element in the array must be casted individually. The simplest way to do this is via `System.Linq`. 
+
+```cs
+public IMyInterface[] MyInterfaceArray => myObjects.OfType<IMyInterface>().ToArray();
+public IMyInterface[] MyInterfaceList => myObjects.OfType<IMyInterface>().ToList();
+
+// For performance reasons, it's recommended that you cache your collection wherever possible,
+// as you may not want this being calculated every time you reference this property.
+IMyInterface[] _myInterfaceArray;
+
+void Awake()
+{
+    _myInterfaceArray = MyInterfaceArray;
+}
+
+```
+
+If you would like to avoid using `Linq`, you can make a quick getter and setter function.
 
 ```cs
 [SerializeField, InterfaceType(typeof(IMyInterface))]
@@ -58,6 +75,7 @@ private Object[] myObjects;
 
 public IMyInterface MyInterface(int index) => myObjects[index] as IMyInterface;
 public IMyInterface MyInterface(int index, IMyInterface value) => myObjects[index] = value;
+
 ```
 
 ### Namespace
